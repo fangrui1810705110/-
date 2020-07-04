@@ -1,5 +1,5 @@
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
-<!--  -->
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -10,14 +10,14 @@
 <script language="JavaScript" src="js/jquery.js"></script>
 <script src="js/cloud.js" type="text/javascript"></script>
 
-<!-- <!-- <script language="javascript">
+<script language="javascript">
 	$(function(){
     $('.loginbox').css({'position':'absolute','left':($(window).width()-692)/2});
 	$(window).resize(function(){  
     $('.loginbox').css({'position':'absolute','left':($(window).width()-692)/2});
     })  
 });  
-</script> --> 
+</script> 
 
 </head>
 
@@ -31,14 +31,14 @@
     	<li></li>
 	    <li><input name="username" type="text" placeholder="用户名" class="loginuser"  /></li>
 	    <li><input name="password" type="password" placeholder="密码" class="loginpwd"  /></li>
-	   <!--  <li class="yzm">
+	   <li class="yzm">
 	    <span><input name="" type="text" value="验证码" onclick="JavaScript:this.value=''"/></span><cite>X3D5S</cite> 
-	    </li> -->
+	    </li> 
 	    
  
   <li><input type="submit" value="登录"    /> 
-	    <!-- <label><a href="/web/main/main.jsp">登录</a></label>  -->
-	   <!--  <label><a href="/web/user/reg.jsp">注册</a></label></li> -->
+	   <label><a href="/web/main/main.jsp">登录</a></label> 
+	  <label><a href="/web/user/reg.jsp">注册</a></label></li> 
 	  
 	   </ul>
     </form>
